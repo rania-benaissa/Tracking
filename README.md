@@ -3,7 +3,7 @@ Pedestrian tracking using block matching
 
 ## Usage 
 
-Execute the file `track.py` (To save the bounding box images, uncomment the corresponding line code)
+Execute the file `track.py` (To save the bounding boxes images, uncomment the corresponding line code)
 
 
 ## Demo
