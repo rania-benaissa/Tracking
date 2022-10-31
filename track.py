@@ -188,7 +188,8 @@ def displayVideo(frames, video, video_speed):
         # si on le mets a 0 ça va garder le path en entier et encombrer la vidéo
         drawPath(video, frames, i-100, i+1)
 
-        cv2.imwrite("bounding_boxes/image" + str(i)+".jpg", video[i])
+        # uncomment this to save the bounding box images
+        # cv2.imwrite("bounding_boxes/image" + str(i)+".jpg", video[i])
 
         cv2.imshow('video with bbs', video[i])
 
